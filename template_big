@@ -1,0 +1,182 @@
+# ────────────────────────────────────────────────────────────────────────────────
+# 📌 nom_de_la_commande.py — Commande interactive /nom_de_la_commande et !nom_de_la_commande
+# Objectif : Description courte de la commande avec interaction slash et préfixe
+# Catégorie : Autre
+# Accès : Tous
+# Cooldown : 1 utilisation / 5 secondes / utilisateur
+# ────────────────────────────────────────────────────────────────────────────────
+
+# ────────────────────────────────────────────────────────────────────────────────
+# 📦 Imports nécessaires
+# ────────────────────────────────────────────────────────────────────────────────
+import discord
+from discord import app_commands
+from discord.ext import commands
+from discord.ui import View, Select
+import json
+import os
+
+# Utils sécurisés pour éviter erreurs 429 ou suppression ratée
+from utils.discord_utils import safe_send, safe_edit, safe_respond, safe_delete  
+
+# ────────────────────────────────────────────────────────────────────────────────
+# 📂 Chargement des données JSON (exemple)
+# ────────────────────────────────────────────────────────────────────────────────
+DATA_JSON_PATH = os.path.join("data", "data_file.json")
+
+def load_data():
+    """Charge le fichier JSON contenant les données de la commande."""
+    try:
+        with open(DATA_JSON_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"[ERREUR JSON] Impossible de charger {DATA_JSON_PATH} : {e}")
+        return {}
+
+# ────────────────────────────────────────────────────────────────────────────────
+# 🎛️ UI — Premier menu interactif
+# ────────────────────────────────────────────────────────────────────────────────
+class FirstSelectView(View):
+    def __init__(self, bot, data):
+        super().__init__(timeout=120)
+        self.bot = bot
+        self.data = data
+        self.message = None  # le message envoyé sera stocké ici
+        self.add_item(FirstSelect(self))
+
+    async def on_timeout(self):
+        """Désactive le menu quand il expire."""
+        for child in self.children:
+            child.disabled = True
+        if self.message:
+            await safe_edit(self.message, view=self)
+
+class FirstSelect(Select):
+    def __init__(self, parent_view: FirstSelectView):
+        self.parent_view = parent_view
+        options = [discord.SelectOption(label=key, value=key) for key in self.parent_view.data.keys()]
+        super().__init__(placeholder="Sélectionne une option", options=options)
+
+    async def callback(self, interaction: discord.Interaction):
+        selected_key = self.values[0]
+        new_view = SecondSelectView(self.parent_view.bot, self.parent_view.data, selected_key)
+        new_view.message = interaction.message  # garde la référence pour le timeout
+        await safe_edit(
+            interaction.message,
+            content=f"Option sélectionnée : **{selected_key}**\nChoisis maintenant une sous-option :",
+            embed=None,
+            view=new_view
+        )
+
+# ────────────────────────────────────────────────────────────────────────────────
+# 🎛️ UI — Deuxième menu interactif
+# ────────────────────────────────────────────────────────────────────────────────
+class SecondSelectView(View):
+    def __init__(self, bot, data, key):
+        super().__init__(timeout=120)
+        self.bot = bot
+        self.data = data
+        self.key = key
+        self.message = None
+        self.add_item(SecondSelect(self))
+
+    async def on_timeout(self):
+        """Désactive le menu quand il expire."""
+        for child in self.children:
+            child.disabled = True
+        if self.message:
+            await safe_edit(self.message, view=self)
+
+class SecondSelect(Select):
+    def __init__(self, parent_view: SecondSelectView):
+        self.parent_view = parent_view
+        sub_options = list(self.parent_view.data[self.parent_view.key].keys())
+        options = [discord.SelectOption(label=sub, value=sub) for sub in sub_options]
+        super().__init__(placeholder="Sélectionne une sous-option", options=options)
+
+    async def callback(self, interaction: discord.Interaction):
+        key = self.parent_view.key
+        sub_key = self.values[0]
+        infos = self.parent_view.data[key][sub_key]
+
+        embed = discord.Embed(
+            title=f"Informations pour {sub_key} ({key})",
+            color=discord.Color.blue()
+        )
+        for field_name, field_value in infos.items():
+            value = "\n".join(f"• {item}" for item in field_value) if isinstance(field_value, list) else str(field_value)
+            embed.add_field(name=field_name.capitalize(), value=value, inline=False)
+
+        await safe_edit(
+            interaction.message,
+            content=None,
+            embed=embed,
+            view=None
+        )
+
+# ────────────────────────────────────────────────────────────────────────────────
+# 🧠 Cog principal
+# ────────────────────────────────────────────────────────────────────────────────
+class NomDeLaCommande(commands.Cog):
+    """
+    Commande /nom_de_la_commande et !nom_de_la_commande — Description courte
+    """
+    def __init__(self, bot: commands.Bot):
+        self.bot = bot
+
+    # ────────────────────────────────────────────────────────────────────────────
+    # 🔹 Fonction interne commune
+    # ────────────────────────────────────────────────────────────────────────────
+    async def _send_menu(self, channel: discord.abc.Messageable):
+        """Envoie le menu interactif de sélection."""
+        data = load_data()
+        if not data:
+            await safe_send(channel, "❌ Impossible de charger les données.")
+            return
+        view = FirstSelectView(self.bot, data)
+        view.message = await safe_send(channel, "Choisis une option :", view=view)
+
+    # ────────────────────────────────────────────────────────────────────────────
+    # 🔹 Commande SLASH
+    # ────────────────────────────────────────────────────────────────────────────
+    @app_commands.command(
+        name="nom_de_la_commande",
+        description="Description détaillée de la commande."
+    )
+    @app_commands.checks.cooldown(1, 5.0, key=lambda i: (i.user.id))  # ⏳ Cooldown 5s par utilisateur
+    async def slash_nom_de_la_commande(self, interaction: discord.Interaction):
+        """Commande slash principale qui affiche le menu interactif."""
+        try:
+            await interaction.response.defer()
+            await self._send_menu(interaction.channel)
+            await interaction.delete_original_response()
+        except app_commands.CommandOnCooldown as e:
+            await safe_respond(interaction, f"⏳ Attends encore {e.retry_after:.1f}s avant de réutiliser cette commande.", ephemeral=True)
+        except Exception as e:
+            print(f"[ERREUR /nom_de_la_commande] {e}")
+            await safe_respond(interaction, "❌ Une erreur est survenue lors du chargement des données.", ephemeral=True)
+
+    # ────────────────────────────────────────────────────────────────────────────
+    # 🔹 Commande PREFIX
+    # ────────────────────────────────────────────────────────────────────────────
+    @commands.command(name="nom_de_la_commande")
+    @commands.cooldown(1, 5.0, commands.BucketType.user)  # ⏳ Cooldown 5s par utilisateur
+    async def prefix_nom_de_la_commande(self, ctx: commands.Context):
+        """Commande préfixe qui affiche le menu interactif."""
+        try:
+            await self._send_menu(ctx.channel)
+        except commands.CommandOnCooldown as e:
+            await safe_send(ctx.channel, f"⏳ Attends encore {e.retry_after:.1f}s avant de réutiliser cette commande.")
+        except Exception as e:
+            print(f"[ERREUR !nom_de_la_commande] {e}")
+            await safe_send(ctx.channel, "❌ Une erreur est survenue lors du chargement des données.")
+
+# ────────────────────────────────────────────────────────────────────────────────
+# 🔌 Setup du Cog
+# ────────────────────────────────────────────────────────────────────────────────
+async def setup(bot: commands.Bot):
+    cog = NomDeLaCommande(bot)
+    for command in cog.get_commands():
+        if not hasattr(command, "category"):
+            command.category = "Autre"
+    await bot.add_cog(cog)
