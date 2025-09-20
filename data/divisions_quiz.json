@@ -1,0 +1,188 @@
+{
+  "divisions": {
+    "1ère Division": {
+      "traits" : ["discipline", "leadership", "sagesse"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "2ème Division": {
+      "traits" : ["discrétion", "efficacité", "loyauté"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "3ème Division": {
+      "traits" : ["fidélité", "obéissance", "manipulation"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "4ème Division": {
+      "traits" : ["empathie", "altruisme", "pacifisme"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "5ème Division": {
+      "traits" : ["intelligence", "calme", "analyse"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "6ème Division": {
+      "traits" : ["fierté", "honneur", "rigueur"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "7ème Division": {
+      "traits" : ["honnêteté", "justice", "force morale"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "8ème Division": {
+      "traits" : ["détente", "humour", "improvisation"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "9ème Division": {
+      "traits" : ["courage", "endurance", "résilience"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "10ème Division": {
+      "traits" : ["équilibre", "adaptabilité", "prudence"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "11ème Division": {
+      "traits" : ["combat", "bravoure", "détermination"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "12ème Division": {
+      "traits" : ["curiosité", "invention", "folie"],
+      "image" : "data/images/image_par_defaut.jpeg" },
+    "13ème Division": {
+      "traits" : ["compassion", "détermination", "dévouement"],
+      "image" : "data/images/image_par_defaut.jpeg" }
+  },
+  "questions": [
+    {
+      "question": "Que fais-tu face à un conflit ?",
+      "answers": {
+        "Tenter de comprendre les deux camps.": ["empathie", "justice"],
+        "Réagir avec calme et logique.": ["analyse", "prudence"],
+        "Frapper en premier.": ["combat", "bravoure"],
+        "Élaborer une stratégie tordue.": ["manipulation", "intelligence"]
+      }
+    },
+    {
+      "question": "Quel rôle préfères-tu dans une équipe ?",
+      "answers": {
+        "Le leader qui guide les autres.": ["leadership", "discipline"],
+        "Le soigneur qui protège.": ["altruisme", "pacifisme"],
+        "Le combattant qui prend les coups.": ["résilience", "courage"],
+        "Le discret qui agit dans l’ombre.": ["discrétion", "efficacité"]
+      }
+    },
+    {
+      "question": "Ta plus grande qualité, c’est :",
+      "answers": {
+        "Ma créativité.": ["curiosité", "invention"],
+        "Ma loyauté.": ["fidélité", "dévouement"],
+        "Ma capacité d’adaptation.": ["équilibre", "adaptabilité"],
+        "Mon sens de l’humour.": ["détente", "improvisation"]
+      }
+    },
+    {
+      "question": "Si tu devais choisir un animal totem :",
+      "answers": {
+        "Un loup – noble et loyal.": ["loyauté", "force morale"],
+        "Un renard – malin et imprévisible.": ["manipulation", "improvisation"],
+        "Un hibou – sage et observateur.": ["sagesse", "analyse"],
+        "Un tigre – féroce et courageux.": ["combat", "détermination"]
+      }
+    },
+    {
+      "question": "Comment préfères-tu agir ?",
+      "answers": {
+        "Dans l’urgence, quitte à improviser.": ["improvisation", "courage"],
+        "En planifiant tout à l’avance.": ["discipline", "analyse"],
+        "Par instinct, en suivant mon cœur.": ["compassion", "dévouement"],
+        "En testant des solutions originales.": ["invention", "folie"]
+      }
+    },
+
+
+     {
+      "question": "Comment prends-tu une décision importante ?",
+      "answers": {
+        "En écoutant mon instinct et mon cœur.": ["compassion", "dévouement"],
+        "En analysant tous les détails minutieusement.": ["intelligence", "analyse"],
+        "En consultant les autres et cherchant un consensus.": ["leadership", "justice"],
+        "En évaluant rapidement les risques et opportunités.": ["prudence", "adaptabilité"]
+      }
+    },
+    {
+      "question": "Quelle est ta plus grande peur ?",
+      "answers": {
+        "Perdre la confiance de mes proches.": ["fidélité", "loyauté"],
+        "Être considéré comme faible ou inutile.": ["fierté", "honneur"],
+        "Ne pas réussir à protéger ceux que j’aime.": ["courage", "résilience"],
+        "Être enfermé dans des règles sans pouvoir créer.": ["folie", "invention"]
+      }
+    },
+    {
+      "question": "Comment réagis-tu face à une situation inattendue ?",
+      "answers": {
+        "Je reste calme et j’adapte ma stratégie.": ["calme", "adaptabilité"],
+        "Je trouve une manière créative de résoudre le problème.": ["curiosité", "invention"],
+        "Je demande conseil à quelqu’un de confiance.": ["loyauté", "discipline"],
+        "Je prends les choses en main avec détermination.": ["détermination", "bravoure"]
+      }
+    },
+    {
+      "question": "Quelle est ta motivation principale dans la vie ?",
+      "answers": {
+        "Aider les autres et apporter la paix.": ["altruisme", "pacifisme"],
+        "Devenir le meilleur et montrer ma valeur.": ["fierté", "combat"],
+        "Explorer et apprendre sans cesse de nouvelles choses.": ["curiosité", "folie"],
+        "Maintenir l’ordre et la justice.": ["discipline", "justice"]
+      }
+    },
+    {
+      "question": "Quel est ton style de travail préféré ?",
+      "answers": {
+        "Travailler en équipe et coordonner les efforts.": ["leadership", "efficacité"],
+        "Travailler seul, dans le calme et la concentration.": ["sagesse", "analyse"],
+        "Improviser et faire preuve de créativité.": ["improvisation", "détente"],
+        "Agir rapidement et avec détermination.": ["bravoure", "combat"]
+      }
+    },
+    {
+      "question": "Quelle est ta réaction face à l’échec ?",
+      "answers": {
+        "J’analyse mes erreurs pour mieux rebondir.": ["analyse", "intelligence"],
+        "Je persévère avec encore plus de courage.": ["courage", "résilience"],
+        "Je cherche du soutien auprès de mes proches.": ["dévouement", "altruisme"],
+        "Je prends du recul pour changer d’approche.": ["adaptabilité", "prudence"]
+      }
+    },
+    {
+      "question": "Quelle qualité admires-tu le plus chez les autres ?",
+      "answers": {
+        "La sagesse et la réflexion profonde.": ["sagesse", "discipline"],
+        "La capacité à faire rire et détendre l’atmosphère.": ["humour", "détente"],
+        "Le courage et la force face à l’adversité.": ["bravoure", "combat"],
+        "La loyauté et la fidélité sans faille.": ["fidélité", "loyauté"]
+      }
+    },
+    {
+      "question": "Quelle phrase te décrit le mieux ?",
+      "answers": {
+        "« Agir avec honneur est ma priorité. »": ["honneur", "rigueur"],
+        "« Je préfère la paix à la confrontation. »": ["pacifisme", "empathie"],
+        "« L’imprévu est une opportunité, pas un obstacle. »": ["improvisation", "curiosité"],
+        "« La justice triomphe toujours. »": ["justice", "discipline"]
+      }
+    },
+    {
+      "question": "Quel type de mission te conviendrait le mieux ?",
+      "answers": {
+        "Une mission diplomatique pour négocier la paix.": ["empathie", "justice"],
+        "Une mission d’infiltration secrète et discrète.": ["discrétion", "manipulation"],
+        "Une mission de combat intense et risquée.": ["bravoure", "détermination"],
+        "Une mission scientifique pour découvrir de nouvelles technologies.": ["curiosité", "invention"]
+      }
+    },
+    {
+      "question": "Comment préfères-tu te détendre après une longue journée ?",
+      "answers": {
+        "En discutant avec des amis autour d’un bon repas.": ["détente", "altruisme"],
+        "En méditant ou lisant un livre calme.": ["calme", "sagesse"],
+        "En pratiquant un sport ou un combat.": ["combat", "bravoure"],
+        "En créant quelque chose de nouveau ou original.": ["invention", "folie"]
+      }
+    }
+
+
+    
+
+ 
+
+  ]
+}

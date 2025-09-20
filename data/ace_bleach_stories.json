@@ -1,0 +1,122 @@
+{
+  "Affaire du Zanpakuto Brisé": {
+    "intro": "Un Zanpakuto a été retrouvé brisé dans le Seireitei. Ichigo doit découvrir la vérité, interroger les témoins et trouver le coupable avant qu'il ne soit trop tard.",
+    "evidence": [
+      "Fragments de Zanpakuto",
+      "Empreintes de Reiatsu suspectes",
+      "Témoin: Rukia",
+      "Zanpakuto ensanglanté",
+      "Note mystérieuse retrouvée sur la scène",
+      "Trace de pas menant vers la porte du Seireitei"
+    ],
+    "scenes": [
+      {
+        "id": 0,
+        "character": "Ichigo",
+        "expression": "serieux",
+        "dialogue": "Un Zanpakuto brisé... Cela ne peut pas rester impuni. Il faut enquêter immédiatement. Rukia, que sais-tu de cette affaire ?",
+        "choices": [
+          {"text": "Interroger Rukia", "next_scene": 1},
+          {"text": "Inspecter la zone du crime", "next_scene": 2}
+        ],
+        "objections": []
+      },
+      {
+        "id": 1,
+        "character": "Rukia",
+        "expression": "inquiete",
+        "dialogue": "Je n'ai rien vu de suspect, mais j'ai remarqué que Renji rôdait près de la zone peu avant la découverte. Peut-être que cela pourra t'aider.",
+        "choices": [
+          {"text": "Aller interroger Renji", "next_scene": 3},
+          {"text": "Retourner inspecter la zone", "next_scene": 2}
+        ],
+        "objections": [
+          {"text": "Rukia ment", "valid": true, "next_scene": 4}
+        ]
+      },
+      {
+        "id": 2,
+        "character": "Ichigo",
+        "expression": "concentre",
+        "dialogue": "La zone est couverte de fragments de lame et de traces de Reiatsu étranges. Il faut analyser ces preuves pour identifier le coupable.",
+        "choices": [
+          {"text": "Examiner les fragments", "next_scene": 5},
+          {"text": "Comparer le Reiatsu avec Renji", "next_scene": 3}
+        ],
+        "objections": []
+      },
+      {
+        "id": 3,
+        "character": "Renji",
+        "expression": "enerve",
+        "dialogue": "Tu m'accuses ? Je n'ai rien fait ! Zabimaru n'a rien à voir avec ce chaos. Tu n'as aucune preuve !",
+        "choices": [
+          {"text": "Présenter les preuves de la scène", "next_scene": 4},
+          {"text": "Exiger un témoignage de Rukia", "next_scene": 1}
+        ],
+        "objections": [
+          {"text": "Renji cache quelque chose", "valid": true, "next_scene": 4}
+        ]
+      },
+      {
+        "id": 4,
+        "character": "Ichigo",
+        "expression": "determine",
+        "dialogue": "Les fragments de Reiatsu et les indices montrent clairement que Renji était présent et tente de cacher quelque chose. L'affaire avance !",
+        "choices": [
+          {"text": "Confronter Renji avec la preuve", "next_scene": 6}
+        ],
+        "objections": []
+      },
+      {
+        "id": 5,
+        "character": "Ichigo",
+        "expression": "analyse",
+        "dialogue": "Ces fragments correspondent à la lame de Renji. De plus, la note retrouvée indique une intention de nuire à quelqu'un dans le Seireitei.",
+        "choices": [
+          {"text": "Examiner le chemin des empreintes", "next_scene": 7}
+        ],
+        "objections": []
+      },
+      {
+        "id": 6,
+        "character": "Renji",
+        "expression": "triste",
+        "dialogue": "D'accord, j'avoue ! Mais ce n'était pas volontaire. J'ai perdu le contrôle de Zabimaru en m'entraînant.",
+        "choices": [
+          {"text": "Accepter ses explications mais enquêter sur la note", "next_scene": 8}
+        ],
+        "objections": []
+      },
+      {
+        "id": 7,
+        "character": "Ichigo",
+        "expression": "reflechit",
+        "dialogue": "Les empreintes et la direction de fuite montrent que quelqu'un a peut-être essayé de détourner les soupçons vers Renji. Il faut découvrir la vérité.",
+        "choices": [
+          {"text": "Chercher des témoins supplémentaires", "next_scene": 1},
+          {"text": "Examiner la note mystérieuse", "next_scene": 8}
+        ],
+        "objections": []
+      },
+      {
+        "id": 8,
+        "character": "Ichigo",
+        "expression": "serieux",
+        "dialogue": "La note indique qu'Aizen pourrait être impliqué. Cet événement n'était peut-être qu'un avant-goût de quelque chose de plus grand. Il faut alerter les capitaines et poursuivre l'enquête.",
+        "choices": [
+          {"text": "Informer les capitaines et conclure l'affaire", "next_scene": 9}
+        ],
+        "objections": []
+      },
+      {
+        "id": 9,
+        "character": "Ichigo",
+        "expression": "determine",
+        "dialogue": "L'affaire du Zanpakuto brisé est officiellement close, mais de nouvelles menaces planent sur le Seireitei. Il faut rester vigilant !",
+        "choices": [],
+        "objections": []
+      }
+    ]
+  }
+}

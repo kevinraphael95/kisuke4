@@ -1,0 +1,1994 @@
+[
+  {
+    "nom": "Ichigo Kurosaki",
+    "stats": {
+      "attaque": 15,
+      "défense": 12,
+      "vitesse": 14,
+      "mobilité": 16,
+      "pression": 10,
+      "force": 13
+    },
+    "attaques": [
+      {
+        "nom": "Getsuga Tensho",
+        "degats": 30,
+        "cout": 20,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Blut Vene",
+        "degats": 28,
+        "cout": 18,
+        "effet": "bouclier",
+        "type": "normale"
+      },
+      {
+        "nom": "Getsuga Jujisho",
+        "degats": 35,
+        "cout": 25,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Mugetsu - Final Getsuga",
+        "degats": 60,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "humain",
+      "shinigami",
+      "vizard",
+      "hollow",
+      "fullbringer",
+      "être transcendant"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Rukia Kuchiki",
+    "stats": {
+      "attaque": 11,
+      "défense": 13,
+      "vitesse": 13,
+      "mobilité": 18,
+      "pression": 14,
+      "force": 11
+    },
+    "attaques": [
+      {
+        "nom": "Sode no Shirayuki",
+        "degats": 22,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Tsugi no mai, Hakuren",
+        "degats": 27,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Tsugi no mai, Tsukishiro",
+        "degats": 25,
+        "cout": 15,
+        "effet": "gel",
+        "type": "normale"
+      },
+      {
+        "nom": "Hakka no Togame",
+        "degats": 55,
+        "cout": 40,
+        "effet": "gel",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "femme"
+  },
+  {
+    "nom": "Renji Abarai",
+    "stats": {
+      "attaque": 14,
+      "défense": 13,
+      "vitesse": 13,
+      "mobilité": 14,
+      "pression": 10,
+      "force": 16
+    },
+    "attaques": [
+      {
+        "nom": "Zabimaru Allonge",
+        "degats": 28,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Zabimaru Rugissement",
+        "degats": 26,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Zabimaru Spirale",
+        "degats": 30,
+        "cout": 20,
+        "effet": "Tranchant circulaire",
+        "type": "aucun"
+      },
+      {
+        "nom": "Hihiō Zabimaru",
+        "degats": 58,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Byakuya Kuchiki",
+    "stats": {
+      "attaque": 13,
+      "défense": 14,
+      "vitesse": 16,
+      "mobilité": 17,
+      "pression": 11,
+      "force": 9
+    },
+    "attaques": [
+      {
+        "nom": "Senbonzakura",
+        "degats": 25,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Senkei",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Shukei - Hakuteiken",
+        "degats": 33,
+        "cout": 25,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai Kageyoshi",
+        "degats": 60,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Tōshirō Hitsugaya",
+    "stats": {
+      "attaque": 13,
+      "défense": 14,
+      "vitesse": 12,
+      "mobilité": 18,
+      "pression": 12,
+      "force": 11
+    },
+    "attaques": [
+      {
+        "nom": "Hyōrinmaru",
+        "degats": 26,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Ryūsenka",
+        "degats": 24,
+        "cout": 15,
+        "effet": "gel",
+        "type": "normale"
+      },
+      {
+        "nom": "Sennen Hyōrō",
+        "degats": 28,
+        "cout": 20,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Daiguren Hyōrinmaru",
+        "degats": 55,
+        "cout": 40,
+        "effet": "gel",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Kenpachi Zaraki",
+    "stats": {
+      "attaque": 18,
+      "défense": 12,
+      "vitesse": 10,
+      "mobilité": 10,
+      "pression": 9,
+      "force": 21
+    },
+    "attaques": [
+      {
+        "nom": "Coup Brutal",
+        "degats": 35,
+        "cout": 25,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Charge Sauvage",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Cri de Guerre",
+        "degats": 33,
+        "cout": 25,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "No Eyepatch",
+        "degats": 60,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Mayuri Kurotsuchi",
+    "stats": {
+      "attaque": 12,
+      "défense": 12,
+      "vitesse": 10,
+      "mobilité": 20,
+      "pression": 18,
+      "force": 8
+    },
+    "attaques": [
+      {
+        "nom": "Ashisogi Jizō",
+        "degats": 20,
+        "cout": 10,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Neurotoxines",
+        "degats": 24,
+        "cout": 15,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Gaz Corrosif",
+        "degats": 26,
+        "cout": 18,
+        "effet": "poison",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai Jōkaku Enran",
+        "degats": 50,
+        "cout": 40,
+        "effet": "poison",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Sōsuke Aizen",
+    "stats": {
+      "attaque": 15,
+      "défense": 13,
+      "vitesse": 14,
+      "mobilité": 18,
+      "pression": 17,
+      "force": 3
+    },
+    "attaques": [
+      {
+        "nom": "Kyōka Suigetsu",
+        "degats": 28,
+        "cout": 15,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Hypnose Suprême",
+        "degats": 26,
+        "cout": 18,
+        "effet": "Confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Slash force",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Fusion Hōgyoku",
+        "degats": 60,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami",
+      "être transcendant"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Uryū Ishida",
+    "stats": {
+      "attaque": 14,
+      "défense": 12,
+      "vitesse": 15,
+      "mobilité": 14,
+      "pression": 17,
+      "force": 8
+    },
+    "attaques": [
+      {
+        "nom": "Reishi Pfeil",
+        "degats": 22,
+        "cout": 10,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Seele Schneider",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Heilig Pfeil",
+        "degats": 25,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Letzt Stil",
+        "degats": 55,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "quincy",
+      "humain"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Yoruichi Shihouin",
+    "stats": {
+      "attaque": 13,
+      "défense": 12,
+      "vitesse": 19,
+      "mobilité": 14,
+      "pression": 12,
+      "force": 10
+    },
+    "attaques": [
+      {
+        "nom": "Shunpo Kick",
+        "degats": 24,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Shunkō Blitz",
+        "degats": 26,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Raijin Griffe",
+        "degats": 28,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Mode Raijin",
+        "degats": 58,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "femme"
+  },
+  {
+    "nom": "Kisuke Urahara",
+    "stats": {
+      "attaque": 14,
+      "défense": 13,
+      "vitesse": 14,
+      "mobilité": 18,
+      "pression": 15,
+      "force": 9
+    },
+    "attaques": [
+      {
+        "nom": "Benihime Rayon",
+        "degats": 26,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Champ Protecteur",
+        "degats": 0,
+        "cout": 10,
+        "effet": "bouclier",
+        "type": "normale"
+      },
+      {
+        "nom": "Onde de Répulsion",
+        "degats": 22,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Kannonbiraki Benihime Aratame",
+        "degats": 55,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Shinji Hirako",
+    "stats": {
+      "attaque": 13,
+      "défense": 13,
+      "vitesse": 13,
+      "mobilité": 17,
+      "pression": 14,
+      "force": 11
+    },
+    "attaques": [
+      {
+        "nom": "Sakanade Tranche",
+        "degats": 25,
+        "cout": 15,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Distorsion",
+        "degats": 27,
+        "cout": 18,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Feinte Mentale",
+        "degats": 23,
+        "cout": 15,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai Inversé",
+        "degats": 58,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami",
+      "vizard"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Grimmjow Jaegerjaquez",
+    "stats": {
+      "attaque": 16,
+      "défense": 12,
+      "vitesse": 14,
+      "mobilité": 12,
+      "pression": 9,
+      "force": 18
+    },
+    "attaques": [
+      {
+        "nom": "Garras del Pantera",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Coup Frontal",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Desgarón",
+        "degats": 33,
+        "cout": 25,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Pantera Final",
+        "degats": 60,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "arrancar",
+      "hollow"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Ulquiorra Cifer",
+    "stats": {
+      "attaque": 15,
+      "défense": 14,
+      "vitesse": 13,
+      "mobilité": 15,
+      "pression": 12,
+      "force": 16
+    },
+    "attaques": [
+      {
+        "nom": "Lanza del Relámpago",
+        "degats": 35,
+        "cout": 25,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Mur Obscur",
+        "degats": 0,
+        "cout": 12,
+        "effet": "bouclier",
+        "type": "normale"
+      },
+      {
+        "nom": "Regeneration",
+        "degats": 0,
+        "cout": 10,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Segunda Etapa",
+        "degats": 60,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "arrancar",
+      "hollow"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Nelliel Tu Odelschwanck",
+    "stats": {
+      "attaque": 14,
+      "défense": 14,
+      "vitesse": 12,
+      "mobilité": 13,
+      "pression": 11,
+      "force": 15
+    },
+    "attaques": [
+      {
+        "nom": "Lance Charge",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Cero Dardo",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Tourbillon",
+        "degats": 26,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Forma Completa",
+        "degats": 58,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "arrancar",
+      "hollow"
+    ],
+    "genre": "femme"
+  },
+  {
+    "nom": "Tia Harribel",
+    "stats": {
+      "attaque": 13,
+      "défense": 15,
+      "vitesse": 11,
+      "mobilité": 15,
+      "pression": 10,
+      "force": 14
+    },
+    "attaques": [
+      {
+        "nom": "Cascada",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Barracuda Slash",
+        "degats": 25,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Marea Alta",
+        "degats": 27,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Espada del Mar",
+        "degats": 55,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Coyote Starrk",
+    "stats": {
+      "attaque": 16,
+      "défense": 13,
+      "vitesse": 14,
+      "mobilité": 14,
+      "pression": 11,
+      "force": 13
+    },
+    "attaques": [
+      {
+        "nom": "Cero Metralleta",
+        "degats": 32,
+        "cout": 22,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Invocation des loups",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bala Multiple",
+        "degats": 25,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Resurrección Lobo",
+        "degats": 60,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Baraggan Louisenbairn",
+    "stats": {
+      "attaque": 13,
+      "défense": 16,
+      "vitesse": 10,
+      "mobilité": 14,
+      "pression": 12,
+      "force": 10
+    },
+    "attaques": [
+      {
+        "nom": "Axe Vieillissante",
+        "degats": 30,
+        "cout": 20,
+        "effet": "poison",
+        "type": "normale"
+      },
+      {
+        "nom": "Campo de Muerte",
+        "degats": 0,
+        "cout": 10,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Brume Mortelle",
+        "degats": 28,
+        "cout": 18,
+        "effet": "poison",
+        "type": "normale"
+      },
+      {
+        "nom": "Aging Touch",
+        "degats": 60,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Nnoitra Gilga",
+    "stats": {
+      "attaque": 17,
+      "défense": 13,
+      "vitesse": 11,
+      "mobilité": 11,
+      "pression": 10,
+      "force": 19
+    },
+    "attaques": [
+      {
+        "nom": "Coup Circulaire",
+        "degats": 33,
+        "cout": 25,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Double Fauche",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Cri de Rage",
+        "degats": 28,
+        "cout": 18,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Forma Completa",
+        "degats": 58,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Szayelaporro Granz",
+    "stats": {
+      "attaque": 12,
+      "défense": 14,
+      "vitesse": 13,
+      "mobilité": 18,
+      "pression": 15,
+      "force": 9
+    },
+    "attaques": [
+      {
+        "nom": "Clonage ADN",
+        "degats": 0,
+        "cout": 15,
+        "effet": "soin",
+        "type": "normale"
+      },
+      {
+        "nom": "Manipulation Cellulaire",
+        "degats": 20,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Marionnette",
+        "degats": 26,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Resurrección Forcée",
+        "degats": 50,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Shunsui Kyōraku",
+    "stats": {
+      "attaque": 14,
+      "défense": 13,
+      "vitesse": 15,
+      "mobilité": 17,
+      "pression": 11,
+      "force": 12
+    },
+    "attaques": [
+      {
+        "nom": "Katen Kyōkotsu",
+        "degats": 25,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bushōgoma",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Takaoni",
+        "degats": 26,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai Karamatsu Shinjū",
+        "degats": 60,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Jūshirō Ukitake",
+    "stats": {
+      "attaque": 13,
+      "défense": 14,
+      "vitesse": 14,
+      "mobilité": 18,
+      "pression": 15,
+      "force": 9
+    },
+    "attaques": [
+      {
+        "nom": "Sōgyo no Kotowari",
+        "degats": 22,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Onde forcele",
+        "degats": 24,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Mur force",
+        "degats": 0,
+        "cout": 10,
+        "effet": "bouclier",
+        "type": "normale"
+      },
+      {
+        "nom": "Sacrifice force",
+        "degats": 55,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Shinji Hirako",
+    "stats": {
+      "attaque": 14,
+      "défense": 13,
+      "vitesse": 14,
+      "mobilité": 16,
+      "pression": 13,
+      "force": 11
+    },
+    "attaques": [
+      {
+        "nom": "Sakanade",
+        "degats": 25,
+        "cout": 15,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Vision Inversée",
+        "degats": 26,
+        "cout": 18,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Inversion Totale",
+        "degats": 30,
+        "cout": 20,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai Sakashima Yokoshima Happōfusagari",
+        "degats": 58,
+        "cout": 40,
+        "effet": "bouclier",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami",
+      "vizard"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Kisuke Urahara",
+    "stats": {
+      "attaque": 14,
+      "défense": 12,
+      "vitesse": 15,
+      "mobilité": 19,
+      "pression": 16,
+      "force": 10
+    },
+    "attaques": [
+      {
+        "nom": "Benihime Slash",
+        "degats": 25,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Mur de Sang",
+        "degats": 0,
+        "cout": 15,
+        "effet": "bouclier",
+        "type": "normale"
+      },
+      {
+        "nom": "Explosion Cramoisie",
+        "degats": 28,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Shibari Bankai",
+        "degats": 60,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Yamamoto Genryūsai",
+    "stats": {
+      "attaque": 18,
+      "défense": 15,
+      "vitesse": 10,
+      "mobilité": 16,
+      "pression": 10,
+      "force": 20
+    },
+    "attaques": [
+      {
+        "nom": "Ryūjin Jakka",
+        "degats": 35,
+        "cout": 25,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Flammes Ardentes",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Ennetsu Jigoku",
+        "degats": 33,
+        "cout": 25,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Zanka no Tachi",
+        "degats": 65,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Rangiku Matsumoto",
+    "stats": {
+      "attaque": 12,
+      "défense": 11,
+      "vitesse": 14,
+      "mobilité": 13,
+      "pression": 11,
+      "force": 13
+    },
+    "attaques": [
+      {
+        "nom": "Haineko",
+        "degats": 24,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Brume Cendrée",
+        "degats": 22,
+        "cout": 12,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Vent de Cendres",
+        "degats": 26,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Explosion Furtive",
+        "degats": 52,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Ikkaku Madarame",
+    "stats": {
+      "attaque": 16,
+      "défense": 12,
+      "vitesse": 12,
+      "mobilité": 11,
+      "pression": 9,
+      "force": 17
+    },
+    "attaques": [
+      {
+        "nom": "Hōzukimaru",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Charge Frontale",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Tourbillon",
+        "degats": 26,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Ryūmon Hōzukimaru",
+        "degats": 58,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Yumichika Ayasegawa",
+    "stats": {
+      "attaque": 13,
+      "défense": 12,
+      "vitesse": 14,
+      "mobilité": 13,
+      "pression": 15,
+      "force": 11
+    },
+    "attaques": [
+      {
+        "nom": "Ruriiro Kujaku",
+        "degats": 25,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Fleur forcele",
+        "degats": 20,
+        "cout": 10,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Coup Esthétique",
+        "degats": 26,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Déchaînement Floral",
+        "degats": 55,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Izuru Kira",
+    "stats": {
+      "attaque": 12,
+      "défense": 13,
+      "vitesse": 13,
+      "mobilité": 14,
+      "pression": 14,
+      "force": 10
+    },
+    "attaques": [
+      {
+        "nom": "Wabisuke",
+        "degats": 24,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Tranchant Accablant",
+        "degats": 26,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Affliction forcele",
+        "degats": 28,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Jugement de Wabisuke",
+        "degats": 55,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Hisagi Shūhei",
+    "stats": {
+      "attaque": 14,
+      "défense": 13,
+      "vitesse": 14,
+      "mobilité": 15,
+      "pression": 13,
+      "force": 13
+    },
+    "attaques": [
+      {
+        "nom": "Kazeshini",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Frappe Oblique",
+        "degats": 26,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Tranchant Rapide",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Rage de Kazeshini",
+        "degats": 58,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Kensei Muguruma",
+    "stats": {
+      "attaque": 17,
+      "défense": 13,
+      "vitesse": 14,
+      "mobilité": 15,
+      "pression": 13,
+      "force": 16
+    },
+    "attaques": [
+      {
+        "nom": "Tachikaze Slash",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Shunpō Uppercut",
+        "degats": 26,
+        "cout": 16,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Détonation du Vent",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai Tekken Tachikaze",
+        "degats": 60,
+        "cout": 40,
+        "effet": "bouclier",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Rōjūrō Ōtoribashi",
+    "stats": {
+      "attaque": 14,
+      "défense": 14,
+      "vitesse": 15,
+      "mobilité": 17,
+      "pression": 13,
+      "force": 13
+    },
+    "attaques": [
+      {
+        "nom": "Kinshara Strike",
+        "degats": 26,
+        "cout": 16,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Melody Hypnotique",
+        "degats": 28,
+        "cout": 18,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Opera Fantôme",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai Kinshara Butōdan",
+        "degats": 58,
+        "cout": 42,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Sajin Komamura",
+    "stats": {
+      "attaque": 18,
+      "défense": 12,
+      "vitesse": 11,
+      "mobilité": 13,
+      "pression": 11,
+      "force": 20
+    },
+    "attaques": [
+      {
+        "nom": "Frappe de Tenken",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Poing du Loup",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Cri de l'Honneur",
+        "degats": 25,
+        "cout": 14,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Kokujo Tengen Myo'o",
+        "degats": 60,
+        "cout": 42,
+        "effet": "bouclier",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Lisa Yadōmaru",
+    "stats": {
+      "attaque": 14,
+      "défense": 14,
+      "vitesse": 15,
+      "mobilité": 15,
+      "pression": 14,
+      "force": 12
+    },
+    "attaques": [
+      {
+        "nom": "Fente Acrobatique",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Lecture Rapide",
+        "degats": 25,
+        "cout": 14,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Shunkō Pression",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai du Silence",
+        "degats": 58,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Hiyori Sarugaki",
+    "stats": {
+      "attaque": 13,
+      "défense": 13,
+      "vitesse": 15,
+      "mobilité": 14,
+      "pression": 12,
+      "force": 14
+    },
+    "attaques": [
+      {
+        "nom": "Hurlement de Rage",
+        "degats": 26,
+        "cout": 16,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Coup de Sandale",
+        "degats": 24,
+        "cout": 14,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Déchaînement Brutal",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Shunkō Explosif",
+        "degats": 55,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Mashiro Kuna",
+    "stats": {
+      "attaque": 15,
+      "défense": 13,
+      "vitesse": 15,
+      "mobilité": 13,
+      "pression": 11,
+      "force": 14
+    },
+    "attaques": [
+      {
+        "nom": "Mashiro Kick",
+        "degats": 32,
+        "cout": 24,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Mashiro Spécial",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Acrobatie Verte",
+        "degats": 26,
+        "cout": 16,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Mashiro Super Mode",
+        "degats": 60,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Ikomikidomoe",
+    "stats": {
+      "attaque": 17,
+      "défense": 15,
+      "vitesse": 12,
+      "mobilité": 10,
+      "pression": 10,
+      "force": 18
+    },
+    "attaques": [
+      {
+        "nom": "Frappe Colossale",
+        "degats": 33,
+        "cout": 25,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Hurlement de Rage",
+        "degats": 28,
+        "cout": 18,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Écrasement force",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Forme Déchaînée",
+        "degats": 60,
+        "cout": 42,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Tenjirō Kirinji",
+    "stats": {
+      "attaque": 15,
+      "défense": 14,
+      "vitesse": 13,
+      "mobilité": 19,
+      "pression": 17,
+      "force": 12
+    },
+    "attaques": [
+      {
+        "nom": "Fontaine Curative",
+        "degats": 20,
+        "cout": 10,
+        "effet": "soin",
+        "type": "normale"
+      },
+      {
+        "nom": "Jet d’Eau Bouillante",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bain Revigorant",
+        "degats": 26,
+        "cout": 15,
+        "effet": "soin",
+        "type": "normale"
+      },
+      {
+        "nom": "Ondes du Bain Royal",
+        "degats": 55,
+        "cout": 40,
+        "effet": "soin",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Senjumaru Shutara",
+    "stats": {
+      "attaque": 14,
+      "défense": 15,
+      "vitesse": 16,
+      "mobilité": 18,
+      "pression": 19,
+      "force": 11
+    },
+    "attaques": [
+      {
+        "nom": "Soie Tranchante",
+        "degats": 26,
+        "cout": 16,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Tissage Hypnotique",
+        "degats": 28,
+        "cout": 18,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Marionnette de Soie",
+        "degats": 30,
+        "cout": 20,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Atatameru",
+        "degats": 60,
+        "cout": 42,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Ōetsu Nimaiya",
+    "stats": {
+      "attaque": 17,
+      "défense": 14,
+      "vitesse": 15,
+      "mobilité": 16,
+      "pression": 13,
+      "force": 15
+    },
+    "attaques": [
+      {
+        "nom": "Sayafushi",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Coup Improvisé",
+        "degats": 26,
+        "cout": 16,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Jet d’Encre",
+        "degats": 25,
+        "cout": 14,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Shinsō Sayafushi",
+        "degats": 60,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Ichibē Hyōsube",
+    "stats": {
+      "attaque": 16,
+      "défense": 16,
+      "vitesse": 12,
+      "mobilité": 18,
+      "pression": 18,
+      "force": 13
+    },
+    "attaques": [
+      {
+        "nom": "Jet d’Encre",
+        "degats": 26,
+        "cout": 16,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Règle du Verbe",
+        "degats": 28,
+        "cout": 18,
+        "effet": "confusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Nom Volé",
+        "degats": 30,
+        "cout": 20,
+        "effet": "cnfusion",
+        "type": "normale"
+      },
+      {
+        "nom": "Shirafude Ichimonji",
+        "degats": 65,
+        "cout": 42,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Kirio Hikifune",
+    "stats": {
+      "attaque": 13,
+      "défense": 15,
+      "vitesse": 14,
+      "mobilité": 17,
+      "pression": 19,
+      "force": 12
+    },
+    "attaques": [
+      {
+        "nom": "Sustentation forcele",
+        "degats": 0,
+        "cout": 12,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Frappe Nourricière",
+        "degats": 26,
+        "cout": 16,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Recette de Vie",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Forme Compressée",
+        "degats": 60,
+        "cout": 40,
+        "effet": "aucun",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Kaname Tōsen",
+    "stats": {
+      "attaque": 14,
+      "défense": 13,
+      "vitesse": 14,
+      "mobilité": 15,
+      "pression": 16,
+      "force": 12
+    },
+    "attaques": [
+      {
+        "nom": "Shunpō Frappe",
+        "degats": 25,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Douleur forcele",
+        "degats": 27,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Frappe Vengeur",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai Suzumushi Tsuishiki",
+        "degats": 60,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  },
+  {
+    "nom": "Ichimaru Gin",
+    "stats": {
+      "attaque": 15,
+      "défense": 14,
+      "vitesse": 13,
+      "mobilité": 16,
+      "pression": 12,
+      "force": 14
+    },
+    "attaques": [
+      {
+        "nom": "Shinsō Piercing",
+        "degats": 28,
+        "cout": 18,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Furtivité",
+        "degats": 25,
+        "cout": 15,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Coup Vipère",
+        "degats": 30,
+        "cout": 20,
+        "effet": "aucun",
+        "type": "normale"
+      },
+      {
+        "nom": "Bankai Kamishini no Yari",
+        "degats": 60,
+        "cout": 40,
+        "effet": "confusion",
+        "type": "ultime"
+      }
+    ],
+    "races": [
+      "shinigami"
+    ],
+    "genre": "homme"
+  }
+]

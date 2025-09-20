@@ -1,0 +1,263 @@
+{
+  "intro": {
+    "description": "Tu te réveilles dans ton appartement, mais tout est étrange : ton chat parle et ton café t’a lancé un défi.",
+    "options": {
+      "Parler au chat": "talk_cat",
+      "Boire le café défiant": "drink_coffee"
+    }
+  },
+  "talk_cat": {
+    "description": "Le chat te regarde avec ses grands yeux et dit : 'Si tu veux survivre aujourd’hui, choisis bien tes actions !'",
+    "options": {
+      "Demander conseil": "cat_advice",
+      "Ignorer le chat": "ignore_cat"
+    }
+  },
+  "drink_coffee": {
+    "description": "Le café te donne des super pouvoirs pendant 5 minutes ! Tu te sens invincible… ou presque.",
+    "options": {
+      "Tester tes pouvoirs": "test_powers",
+      "Aller à l’extérieur": "outside_street"
+    }
+  },
+  "cat_advice": {
+    "description": "Le chat te conseille d’aller chercher un objet magique au grenier.",
+    "options": {
+      "Monter au grenier": "attic",
+      "Aller directement à l’extérieur": "outside_street"
+    }
+  },
+  "ignore_cat": {
+    "description": "Le chat soupire et se transforme en petit démon. Il te défie de résoudre une énigme.",
+    "options": {
+      "Accepter l’énigme": "demon_riddle",
+      "Fuir": "outside_street"
+    }
+  },
+  "test_powers": {
+    "description": "Tu lances des boulettes de papier dans la cuisine et tout explose. Bravo !",
+    "options": {
+      "Continuer l’aventure": "outside_street",
+      "Rentrer se cacher": "bedroom_hide"
+    }
+  },
+  "outside_street": {
+    "description": "Dans la rue, tu rencontres un facteur qui prétend être un ninja secret.",
+    "options": {
+      "Suivre le ninja": "follow_ninja",
+      "Continuer à marcher normalement": "walk_normal"
+    }
+  },
+  "attic": {
+    "description": "Au grenier, tu trouves un vieux chapeau magique qui parle !",
+    "options": {
+      "Mettre le chapeau": "hat_powers",
+      "Ignorer le chapeau": "outside_street"
+    }
+  },
+  "demon_riddle": {
+    "description": "L’énigme est : 'Qu’est-ce qui tombe mais ne se brise jamais ?'",
+    "options": {
+      "Répondre 'la nuit'": "riddle_correct",
+      "Répondre 'le papier'": "riddle_wrong"
+    }
+  },
+  "riddle_correct": {
+    "description": "Le démon disparaît, te laissant un ticket doré pour le parc d’attractions !",
+    "options": {
+      "Aller au parc": "fun_park",
+      "Garder le ticket pour plus tard": "outside_street"
+    }
+  },
+  "riddle_wrong": {
+    "description": "Le démon te transforme en grenouille pendant 2 minutes… puis rit et te remet à la normale.",
+    "options": {
+      "Aller dehors": "outside_street",
+      "Rester chez toi": "bedroom_hide"
+    }
+  },
+  "hat_powers": {
+    "description": "Le chapeau te permet de parler aux objets inanimés ! Ton grille-pain te félicite pour ton courage.",
+    "options": {
+      "Aller dehors avec le chapeau": "outside_street",
+      "Faire la cuisine avec le chapeau": "kitchen_adventure"
+    }
+  },
+  "bedroom_hide": {
+    "description": "Tu te caches sous la couette. Le chat démon te trouve et te propose de devenir son acolyte.",
+    "options": {
+      "Accepter": "cat_sidekick",
+      "Refuser et dormir": "sleep_end"
+    }
+  },
+  "follow_ninja": {
+    "description": "Le ninja te mène à une ruelle où un combat de chat géants a lieu !",
+    "options": {
+      "Participer au combat": "cat_fight",
+      "Observer de loin": "cat_fight_spectate"
+    }
+  },
+  "walk_normal": {
+    "description": "Tu rencontres un vendeur de glaces qui prétend connaître ton futur.",
+    "options": {
+      "Écouter son futur": "ice_cream_future",
+      "Ignorer et continuer": "park_entrance"
+    }
+  },
+  "fun_park": {
+    "description": "Le parc est rempli de manèges étranges et d’animaux parlants.",
+    "options": {
+      "Monter dans le grand huit magique": "roller_coaster",
+      "Parler aux animaux": "talk_animals"
+    }
+  },
+  "kitchen_adventure": {
+    "description": "Ton grille-pain te guide dans une recette magique. Ça explose partout !",
+    "options": {
+      "Continuer à cuisiner": "magic_recipe_success",
+      "Abandonner": "outside_street"
+    }
+  },
+  "cat_sidekick": {
+    "description": "Tu deviens l’acolyte du chat démon. Ensemble, vous organisez des farces incroyables.",
+    "options": {
+      "Fin hilarante": "funny_end",
+      "Continuer l’aventure": "outside_street"
+    }
+  },
+  "sleep_end": {
+    "description": "Tu dors paisiblement. Fin tranquille mais triste…",
+    "options": {}
+  },
+  "cat_fight": {
+    "description": "Les chats géants te reconnaissent comme un des leurs et t’invitent à la bataille finale !",
+    "options": {
+      "Participer à la bataille": "battle_cats_final",
+      "Refuser et fuir": "park_entrance"
+    }
+  },
+  "cat_fight_spectate": {
+    "description": "Tu observes les chats se battre, rigolant de leurs mouvements absurdes.",
+    "options": {
+      "Fin amusante": "funny_end",
+      "Intervenir malgré tout": "battle_cats_final"
+    }
+  },
+  "ice_cream_future": {
+    "description": "Le vendeur te dit : 'Demain tu trouveras un objet magique.' Il te donne une glace gratuite.",
+    "options": {
+      "Manger la glace": "magic_glass",
+      "Garder la glace pour plus tard": "park_entrance"
+    }
+  },
+  "park_entrance": {
+    "description": "Tu arrives à l’entrée d’un parc mystérieux. Une affiche dit : 'Choisis ton destin !'",
+    "options": {
+      "Entrer dans le parc": "fun_park",
+      "Faire demi-tour": "outside_street"
+    }
+  },
+  "roller_coaster": {
+    "description": "Le grand huit te propulse dans le ciel et tu croises un dragon de barbe à papa !",
+    "options": {
+      "Combattre le dragon": "dragon_fight",
+      "Monter sur le dos du dragon": "dragon_ride"
+    }
+  },
+  "talk_animals": {
+    "description": "Les animaux te racontent des blagues incroyables et te donnent un indice pour trouver un trésor.",
+    "options": {
+      "Chercher le trésor": "treasure_hunt",
+      "Rester avec les animaux": "funny_end"
+    }
+  },
+  "magic_recipe_success": {
+    "description": "La recette fonctionne ! Tu crées une potion qui transforme les gens en animaux rigolos.",
+    "options": {
+      "Tester la potion": "potion_test",
+      "Garder la potion": "outside_street"
+    }
+  },
+  "magic_glass": {
+    "description": "La glace te transforme temporairement en super-héros capable de voler !",
+    "options": {
+      "Voler vers le parc": "fun_park",
+      "Faire un tour en ville": "city_fly"
+    }
+  },
+  "city_fly": {
+    "description": "En volant, tu rencontres un pigeon géant qui te propose de rejoindre sa guilde.",
+    "options": {
+      "Accepter": "pigeon_guild",
+      "Refuser et atterrir": "outside_street"
+    }
+  },
+  "treasure_hunt": {
+    "description": "Tu trouves un coffre contenant un tutu magique et une baguette en réglisse.",
+    "options": {
+      "Mettre le tutu": "tutu_magic",
+      "Garder la baguette": "candy_wand"
+    }
+  },
+  "potion_test": {
+    "description": "Tu transformes accidentellement ton chat en licorne. Rigolo mais chaotique !",
+    "options": {
+      "Fin hilarante": "funny_end",
+      "Essayer de le transformer en humain": "reverse_potion"
+    }
+  },
+  "reverse_potion": {
+    "description": "La potion fonctionne, ton chat redevient normal, mais parle maintenant en rimes !",
+    "options": {
+      "Fin poétique": "poetic_end",
+      "Continuer l’aventure": "outside_street"
+    }
+  },
+  "dragon_fight": {
+    "description": "Le dragon crache des bonbons ! Tu gagnes le combat grâce à ton tutu magique.",
+    "options": {
+      "Fin héroïque": "heroic_end"
+    }
+  },
+  "dragon_ride": {
+    "description": "Tu chevauches le dragon et survoles tout le parc en riant.",
+    "options": {
+      "Fin épique": "epic_end"
+    }
+  },
+  "pigeon_guild": {
+    "description": "Tu deviens membre de la guilde des pigeons géants et accomplis des missions absurdes.",
+    "options": {
+      "Fin hilarante": "funny_end"
+    }
+  },
+  "tutu_magic": {
+    "description": "Le tutu te donne la capacité de danser parfaitement partout.",
+    "options": {
+      "Danser au parc": "roller_coaster",
+      "Danser en ville": "city_fly"
+    }
+  },
+  "candy_wand": {
+    "description": "La baguette lance des bonbons explosifs. Très utile contre les Hollow en colère.",
+    "options": {
+      "Continuer l’aventure": "outside_street"
+    }
+  },
+  "funny_end": {
+    "description": "Tu as vécu une aventure totalement absurde et hilarante. Fin comique !",
+    "options": {}
+  },
+  "poetic_end": {
+    "description": "Ton chat parlant en rimes t’accompagne dans une fin poétique et douce.",
+    "options": {}
+  },
+  "heroic_end": {
+    "description": "Grâce à ton courage et ton tutu magique, tu deviens un héros reconnu par tous. Fin héroïque !",
+    "options": {}
+  },
+  "epic_end": {
+    "description": "Ton aventure devient légendaire. Tout le monde raconte tes exploits ! Fin épique !",
+    "options": {}
+  }
+}

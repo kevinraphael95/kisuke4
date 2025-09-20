@@ -1,0 +1,13 @@
+{
+  "SPAWN_LOOP_INTERVAL": 60,
+  "SUPER_REIATSU_CHANCE": 1,
+  "SUPER_REIATSU_GAIN": 100,
+  "NORMAL_REIATSU_GAIN": 1,
+  "SPAWN_SPEED_RANGES": {
+    "Ultra_Rapide": [60, 300],
+    "Rapide": [300, 1200],
+    "Normal": [1800, 3600],
+    "Lent": [18000, 36000]
+  },
+  "DEFAULT_SPAWN_SPEED": "Normal"
+}

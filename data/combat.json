@@ -1,0 +1,138 @@
+{
+  "Ichigo Kurosaki": {
+    "type": "Shinigami",
+    "stats": {
+      "HP": 100,
+      "ATK": 40,
+      "DEF": 25,
+      "SPD": 30,
+      "REI": 40,
+      "TEC": 25
+    },
+    "moves": {
+      "Attaque légère": {"type": "basic", "power": 10, "rei_cost": 0},
+      "Attaque lourde": {"type": "basic", "power": 20, "rei_cost": 0},
+      "Getsuga Tenshō": {"type": "special", "power": 35, "rei_cost": 20},
+      "Bankai": {"type": "transform", "power": 0, "rei_cost": 50, "cooldown": true}
+    }
+  },
+  "Byakuya Kuchiki": {
+    "type": "Shinigami",
+    "stats": {
+      "HP": 100,
+      "ATK": 30,
+      "DEF": 30,
+      "SPD": 35,
+      "REI": 40,
+      "TEC": 25
+    },
+    "moves": {
+      "Attaque légère": {"type": "basic", "power": 10, "rei_cost": 0},
+      "Senbonzakura": {"type": "special", "power": 30, "rei_cost": 20},
+      "Shukei Hakuteiken": {"type": "special", "power": 50, "rei_cost": 40},
+      "Bankai": {"type": "transform", "power": 0, "rei_cost": 50, "cooldown": true}
+    }
+  },
+  "Sosuke Aizen": {
+    "type": "Arrancar",
+    "stats": {
+      "HP": 120,
+      "ATK": 35,
+      "DEF": 30,
+      "SPD": 25,
+      "REI": 45,
+      "TEC": 30
+    },
+    "moves": {
+      "Kyōka Suigetsu": {"type": "special", "power": 25, "rei_cost": 20},
+      "Coup de rei": {"type": "basic", "power": 15, "rei_cost": 0},
+      "Shikai": {"type": "transform", "power": 0, "rei_cost": 40, "cooldown": true},
+      "Hōgyoku": {"type": "special", "power": 50, "rei_cost": 50, "cooldown": true}
+    }
+  },
+  "Tōshirō Hitsugaya": {
+    "type": "Shinigami",
+    "stats": {
+      "HP": 95,
+      "ATK": 35,
+      "DEF": 20,
+      "SPD": 40,
+      "REI": 35,
+      "TEC": 30
+    },
+    "moves": {
+      "Coup de glace": {"type": "basic", "power": 15, "rei_cost": 0},
+      "Hyōten Hyakkasō": {"type": "special", "power": 30, "rei_cost": 20},
+      "Daiguren Hyōrinmaru": {"type": "transform", "power": 0, "rei_cost": 50, "cooldown": true},
+      "Bankai": {"type": "transform", "power": 0, "rei_cost": 50, "cooldown": true}
+    }
+  },
+  "Kenpachi Zaraki": {
+    "type": "Shinigami",
+    "stats": {
+      "HP": 150,
+      "ATK": 50,
+      "DEF": 20,
+      "SPD": 20,
+      "REI": 20,
+      "TEC": 15
+    },
+    "moves": {
+      "Coup sauvage": {"type": "basic", "power": 20, "rei_cost": 0},
+      "Rafale": {"type": "basic", "power": 25, "rei_cost": 0},
+      "Kendo": {"type": "special", "power": 35, "rei_cost": 20},
+      "Bankai": {"type": "transform", "power": 0, "rei_cost": 50, "cooldown": true}
+    }
+  },
+  "Grimmjow Jaegerjaquez": {
+    "type": "Arrancar",
+    "stats": {
+      "HP": 110,
+      "ATK": 40,
+      "DEF": 25,
+      "SPD": 35,
+      "REI": 30,
+      "TEC": 25
+    },
+    "moves": {
+      "Coup rapide": {"type": "basic", "power": 15, "rei_cost": 0},
+      "Desgarrar": {"type": "special", "power": 30, "rei_cost": 20},
+      "Resurrección": {"type": "transform", "power": 0, "rei_cost": 50, "cooldown": true},
+      "Caída Azul": {"type": "special", "power": 45, "rei_cost": 40}
+    }
+  },
+  "Ulquiorra Cifer": {
+    "type": "Arrancar",
+    "stats": {
+      "HP": 115,
+      "ATK": 35,
+      "DEF": 30,
+      "SPD": 30,
+      "REI": 40,
+      "TEC": 30
+    },
+    "moves": {
+      "Coup d'ombre": {"type": "basic", "power": 15, "rei_cost": 0},
+      "Lanza del Relámpago": {"type": "special", "power": 40, "rei_cost": 30},
+      "Resurrección": {"type": "transform", "power": 0, "rei_cost": 50, "cooldown": true},
+      "Cero Oscuras": {"type": "special", "power": 50, "rei_cost": 40}
+    }
+  },
+  "Yoruichi Shihōin": {
+    "type": "Shinigami",
+    "stats": {
+      "HP": 90,
+      "ATK": 35,
+      "DEF": 25,
+      "SPD": 50,
+      "REI": 35,
+      "TEC": 35
+    },
+    "moves": {
+      "Coup rapide": {"type": "basic", "power": 15, "rei_cost": 0},
+      "Frappe éclair": {"type": "special", "power": 30, "rei_cost": 20},
+      "Transformation féline": {"type": "transform", "power": 0, "rei_cost": 40, "cooldown": true},
+      "Shunpo suprême": {"type": "special", "power": 40, "rei_cost": 30}
+    }
+  }
+}

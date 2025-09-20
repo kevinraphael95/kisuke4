@@ -1,0 +1,222 @@
+{
+  "bakudo": [
+    {
+      "numero": 1,
+      "nom": "Sai",
+      "kanji": "塞",
+      "incantation": null,
+      "description": "Lie les bras du cible dans le dos",
+      "image": null
+    },
+    {
+      "numero": 4,
+      "nom": "Hainawa",
+      "kanji": "這縄",
+      "incantation": null,
+      "description": "Une corde spirituelle enroule le cible",
+      "image": null
+    },
+    {
+      "numero": 8,
+      "nom": "Seki",
+      "kanji": "惜",
+      "incantation": null,
+      "description": "Bouclier circulaire repoussant les attaques",
+      "image": null
+    },
+    {
+      "numero": 9,
+      "nom": "Geki",
+      "kanji": "撃",
+      "incantation": null,
+      "description": "Paralyse l'ennemi dans une lumière rouge",
+      "image": null
+    },
+    {
+      "numero": 21,
+      "nom": "Sekienton",
+      "kanji": "赤煙遁",
+      "incantation": null,
+      "description": "Simule un épais nuage rouge pour échapper",
+      "image": null
+    },
+    {
+      "numero": 26,
+      "nom": "Kyokkō",
+      "kanji": "曲光",
+      "incantation": null,
+      "description": "Camoufle forme et Reiatsu en courbant la lumière",
+      "image": null
+    },
+    {
+      "numero": 30,
+      "nom": "Shitotsu Sansen",
+      "kanji": "突突三線",
+      "incantation": null,
+      "description": "Projette trois rayons de lumière, cloue l’ennemi",
+      "image": null
+    },
+    {
+      "numero": 37,
+      "nom": "Tsuriboshi",
+      "kanji": "釣り星",
+      "incantation": null,
+      "description": "Crée un filet spirituel en étoile",
+      "image": null
+    },
+    {
+      "numero": 61,
+      "nom": "Rikujōkōrō",
+      "kanji": "六杖光牢",
+      "incantation": "Raimei no basha, itoguruma no kangeki, hikari mote kore o mutsu ni wakatsu",
+      "description": "Six barres de lumière enferment la cible",
+      "image": null
+    },
+    {
+      "numero": 62,
+      "nom": "Hyapporankan",
+      "kanji": "百歩欄干",
+      "incantation": null,
+      "description": "Bâton divisé en cent épées qui entravent l’ennemi",
+      "image": null
+    },
+    {
+      "numero": 63,
+      "nom": "Sajō Sabaku",
+      "kanji": "鎖条縛",
+      "incantation": null,
+      "description": "Enchaîne l’ennemi avec des liens spirituels",
+      "image": null
+    },
+    {
+      "numero": 75,
+      "nom": "Gochūtekkan",
+      "kanji": "五柱鉄貫",
+      "incantation": "Tetsu sa no kabe, sōgyō no tō, shakutetsu keikei, tanzen toshite tsuini oto nashi",
+      "description": "Cinq piliers de fer fixent l’ennemi au sol",
+      "image": null
+    },
+    {
+      "numero": 81,
+      "nom": "Dankū",
+      "kanji": "斷空",
+      "incantation": null,
+      "description": "Mur spirituel pouvant bloquer jusqu’à Hadō 89",
+      "image": null
+    },
+    {
+      "numero": 99,
+      "nom": "Kin",
+      "kanji": "禁",
+      "incantation": null,
+      "description": "Lie les bras (et parfois tout le corps)",
+      "image": null
+    }
+  ],
+  "hado": [
+    {
+      "numero": 1,
+      "nom": "Shō",
+      "kanji": "衝",
+      "incantation": null,
+      "description": "Pousse l’adversaire avec une onde d’énergie",
+      "image": null
+    },
+    {
+      "numero": 4,
+      "nom": "Byakurai",
+      "kanji": "白雷",
+      "incantation": null,
+      "description": "Boule éclair concentrée tirée du doigt",
+      "image": null
+    },
+    {
+      "numero": 11,
+      "nom": "Tsuzuri Raiden",
+      "kanji": "綴雷電",
+      "incantation": null,
+      "description": "Canalise la foudre dans l’arme ou la cible",
+      "image": null
+    },
+    {
+      "numero": 31,
+      "nom": "Shakkahō",
+      "kanji": "赤火砲",
+      "incantation": "Kunrinsha yo! Chiniku no kamen, banshō, habataki, hito no na o kansu mono yo!...",
+      "description": "Orbe rouge explosif de Reiatsu",
+      "image": null
+    },
+    {
+      "numero": 33,
+      "nom": "Sōkatsui",
+      "kanji": "蒼火墜",
+      "incantation": "Ye lord! Mask of flesh and bone, ... unleashed but slightly the wrath of your claws.",
+      "description": "Explosion bleue puissante sur la cible",
+      "image": null
+    },
+    {
+      "numero": 58,
+      "nom": "Tenran",
+      "kanji": "天蘭",
+      "incantation": null,
+      "description": "Rafale tourbillonnante d’énergie spirituelle",
+      "image": null
+    },
+    {
+      "numero": 63,
+      "nom": "Raikōhō",
+      "kanji": "雷公砲",
+      "incantation": null,
+      "description": "Canon de foudre concentrée",
+      "image": null
+    },
+    {
+      "numero": 73,
+      "nom": "Sōren Sōkatsui",
+      "kanji": "双蓮蒼火墜",
+      "incantation": null,
+      "description": "Double explosion bleue",
+      "image": null
+    },
+    {
+      "numero": 88,
+      "nom": "Hiryū Gekizoku Shinten Raihō",
+      "kanji": "飛竜撃賊震天雷炮",
+      "incantation": null,
+      "description": "Canon foudroyant dévastateur",
+      "image": null
+    },
+    {
+      "numero": 90,
+      "nom": "Kurohitsugi",
+      "kanji": "黒棺",
+      "incantation": "Nijimidasu kondaku no monshō. Fusonnaru Kyoki no utsuwa!...",
+      "description": "Cercueil noir impalant la cible (Hadō 90)",
+      "image": null
+    },
+    {
+      "numero": 91,
+      "nom": "Senjū Kōten Taihō",
+      "kanji": "千手皓天汰炮",
+      "incantation": null,
+      "description": "Canon céleste à main multiple",
+      "image": null
+    },
+    {
+      "numero": 96,
+      "nom": "Ittō Kasō",
+      "kanji": "一刀火葬",
+      "incantation": null,
+      "description": "Sort de sacrifice auto‑destructeur",
+      "image": null
+    },
+    {
+      "numero": 99,
+      "nom": "Goryūtenmetsu",
+      "kanji": "五龍転滅",
+      "incantation": null,
+      "description": "Destruction par cinq dragons spirituels",
+      "image": null
+    }
+  ]
+}

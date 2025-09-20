@@ -1,0 +1,31 @@
+{  
+  "Travailleur": {  
+    "Symbole": "👶",  
+    "Passive": "Une fois sur 5 : Récupère 6 Reiatsu au lieu de 1 reiatsu.",  
+    "Active": "Aucune"  
+  },  
+  "Voleur": {  
+    "Symbole": "🥷",  
+    "Passive": "Réduction de 5h du cooldown de vol, 67% de chance de réussir un vol, 15% de chance de doubler les gains lors d'un vol",  
+    "Active": "!!skill — Le prochain vol est garanti. (CD: 12h)"  
+  },  
+  "Absorbeur": {  
+    "Symbole": "🌀",  
+    "Passive": "5 Reiatsu par reiatsu récupéré",  
+    "Active": "!!skill — le Prochain Reiatsu absorbé est forcément un Super reiatsu. (super reiatsu = 100 reiatsu)(CD: 12h)"  
+  },  
+  "Illusionniste": {  
+    "Symbole": "🎭",  
+    "Passive": "50% de chance de ne pas perdre de reiatsu quand volé",  
+    "Active": "!!skill — Envoie un faux reiatsu qui si quelqu'un le prend ça donne 10 reiatsu à l'illusionniste. (CD: 8h)"  
+  },  
+  "Parieur": {  
+    "Symbole": "🎲",  
+    "Passive": "Pendant l'absorption d'un reiatsu : 50% de chance de rater, 50% d'en récupérer aléatoirement entre 5 et 12",  
+    "Active": "!!skill — Mise 10 reiatsu pour tenter d'en gagner 30. (CD: 12h)"  
+  }  
+}
+
+
+
+
