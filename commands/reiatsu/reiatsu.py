@@ -211,57 +211,44 @@ class ReiatsuCommand(commands.Cog):
         embed = discord.Embed(
             title=f"__**Profil de {user.display_name}**__",
             description=(
-                f"• 💠 Reiatsu : **{points}**\n"
-                f"• Cooldown vol : {cooldown_text}\n"
-                f"(reiatsuvol pour voler du reiatsu à quelqu'un)\n"
-                f"• Classe : {classe_nom or 'Aucune'}\n"
-                f"(classe pour changer de classe)\n\n"
-                f"• ℹ️ __**Infos Reiatsu**__\n"
-                f"• 📍 Le reiatsu apparaît sur la salon : {salon_text}\n"
-                f"• ⏱️ Intervalle entre deux apparitions : {spawn_speed_text}\n"
-                f"• ⏳ Le prochain reiatsu va apparaître dans : {temps_text}"
-            ),
-            color=discord.Color.purple()
-        )
-        embed.set_footer(text="Utilise les boutons ci-dessous pour interagir.")
-        view = ReiatsuView(author, spawn_link=spawn_link)
+# ──────────────────────────────────────────────────────────────
+# 📌 reiatsu.py — Commande principale Reiatsu
+# Objectif : Afficher les points et infos Reiatsu d’un joueur
+# Catégorie : RPG
+# ──────────────────────────────────────────────────────────────
 
-        # ───────────── Envoi du message selon contexte ─────────────
-        if isinstance(ctx_or_interaction, discord.Interaction):
-            await ctx_or_interaction.response.send_message(embed=embed, view=view)
-        else:
-            await safe_send(ctx_or_interaction, embed=embed, view=view)
+import discord
+from discord.ext import commands
+from utils.supabase_client import supabase
+from utils.discord_utils import safe_send
 
-    # ────────────────────────────────────────────────────────────────────────────
-    # Commande SLASH /reiatsu
-    # ────────────────────────────────────────────────────────────────────────────
-    @app_commands.command(name="reiatsu", description="💠 Affiche le score de Reiatsu d’un membre (ou soi-même).")
-    @app_commands.describe(member="Membre dont vous voulez voir le Reiatsu")
-    @app_commands.checks.cooldown(1, 3.0, key=lambda i: i.user.id)  # Cooldown 3s par utilisateur
-    async def slash_reiatsu(self, interaction: discord.Interaction, member: discord.Member = None):
+class Reiatsu(commands.Cog):
+    """Affiche et gère le Reiatsu d’un joueur."""
+
+    def __init__(self, bot):
+        self.bot = bot
+
+    @commands.command(name="reiatsu")
+    async def reiatsu_cmd(self, ctx):
+        """Affiche les points Reiatsu de l'utilisateur."""
         try:
-            await self._send_profile(interaction, interaction.user, interaction.guild, member)
-        except app_commands.CommandOnCooldown as e:
-            await safe_respond(interaction, f"⏳ Attends encore {e.retry_after:.1f}s.", ephemeral=True)
+            data = supabase.table("reiatsu").select("*").eq("user_id", ctx.author.id).execute()
+            if not data.data:
+                await safe_send(ctx.channel, f"⚠️ {ctx.author.mention}, tu n’as pas encore de Reiatsu !")
+                return
+
+            user = data.data[0]
+            points = user["points"]
+            classe = user["classe"]
+            await safe_send(ctx.channel, f"💠 **{ctx.author.display_name}** — Classe : {classe} | Reiatsu : **{points}**")
         except Exception as e:
-            print(f"[ERREUR /reiatsu] {e}")
-            await safe_respond(interaction, "❌ Une erreur est survenue.", ephemeral=True)
+            print(f"[ERREUR REIATSU] {e}")
+            await safe_send(ctx.channel, "❌ Impossible de récupérer ton Reiatsu pour le moment.")
 
-    # ────────────────────────────────────────────────────────────────────────────
-    # Commande PREFIX !reiatsu ou !rts
-    # ────────────────────────────────────────────────────────────────────────────
-    @commands.command(name="reiatsu", aliases=["rts"])
-    @commands.cooldown(1, 3.0, commands.BucketType.user)
-    async def prefix_reiatsu(self, ctx: commands.Context, member: discord.Member = None):
-        await self._send_profile(ctx.channel, ctx.author, ctx.guild, member)
+async def setup(bot):
+    await bot.add_cog(Reiatsu(bot))
 
-# ────────────────────────────────────────────────────────────────────────────────
-# 🔌 Setup du Cog
-# ────────────────────────────────────────────────────────────────────────────────
-async def setup(bot: commands.Bot):
-    cog = ReiatsuCommand(bot)
-    # Ajout de la catégorie "Reiatsu" si non définie pour chaque commande
-    for command in cog.get_commands():
+t_commands():
         if not hasattr(command, "category"):
             command.category = "Reiatsu"
     await bot.add_cog(cog)
